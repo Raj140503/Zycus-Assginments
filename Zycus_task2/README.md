@@ -19,7 +19,7 @@ account health brief for Technical Account Managers (TAMs).
 
 ```text
 Zycus_task2/
-├── task2_account_health.py
+├── account_health.py
 ├── app.py
 ├── data/
 │   ├── accounts.json
@@ -68,7 +68,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ### Command Line
 
 ```bash
-python task2_account_health.py
+python account_health.py
 ```
 
 The application prompts for an account ID and generates an account-health
