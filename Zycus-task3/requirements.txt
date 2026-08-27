@@ -1,5 +1,0 @@
-openai
-pydantic
-scikit-learn
-python-dotenv
-google-genai
