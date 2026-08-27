@@ -127,11 +127,11 @@ After evaluation, the harness produces:
 
 ```text
 results/
-├── task3_predictions.json
-├── task3_results.json
-└── task3_report.md
+├── predictions.json
+├── results.json
+└── report.md
 ```
 
-`task3_predictions.json` stores the evaluated agent outputs,
-`task3_results.json` stores structured scoring results, and
-`task3_report.md` provides a human-readable evaluation summary.
+`predictions.json` stores the evaluated agent outputs,
+`results.json` stores structured scoring results, and
+`report.md` provides a human-readable evaluation summary.
