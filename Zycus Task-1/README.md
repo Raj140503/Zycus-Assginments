@@ -19,7 +19,7 @@ tickets and produces a structured triage response.
 
 ```text
 Zycus Task-1/
-├── task1_triage.py
+├── triage.py
 ├── data/
 │   ├── accounts.json
 │   └── tickets.json
@@ -65,7 +65,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ## Run
 
 ```bash
-python task1_triage.py
+python triage.py
 ```
 
 The application prompts for:
