@@ -21,7 +21,7 @@ defined acceptance criteria.
 ```text
 Zycus-task3/
 ├── eval/
-│   ├── evaluate_task3.py
+│   ├── evaluate.py
 │   └── test_cases.json
 │  
 ├── results/
@@ -44,7 +44,7 @@ Activate the project virtual environment:
 Install the Task 3 dependencies:
 
 ```bash
-pip install -r requirements_task3.txt
+pip install -r requirements.txt
 ```
 
 ## Evaluation
@@ -52,26 +52,26 @@ pip install -r requirements_task3.txt
 Generate evaluation results for both tasks:
 
 ```bash
-python eval/evaluate_task3.py --task all --mode generate
+python eval/evaluate.py --task all --mode generate
 ```
 
 Evaluate only Task 1:
 
 ```bash
-python eval/evaluate_task3.py --task task1 --mode generate
+python eval/evaluate.py --task task1 --mode generate
 ```
 
 Evaluate only Task 2:
 
 ```bash
-python eval/evaluate_task3.py --task task2 --mode generate
+python eval/evaluate.py --task task2 --mode generate
 ```
 
 After predictions have been saved, regenerate the report without making
 additional LLM API calls:
 
 ```bash
-python eval/evaluate_task3.py --mode report
+python eval/evaluate.py --mode report
 ```
 
 ## Evaluation Criteria
