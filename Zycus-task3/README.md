@@ -14,7 +14,7 @@ defined acceptance criteria.
 - Per-test quality scores from 0 to 1
 - JSON evaluation results
 - Markdown evaluation report
-- Saved predictions to allow report regeneration without additional LLM calls
+- Saved predictions to allow report regeneration without additional LLM calls.
 
 ## Project Structure
 
