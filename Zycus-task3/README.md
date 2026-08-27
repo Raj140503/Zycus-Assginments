@@ -22,14 +22,15 @@ defined acceptance criteria.
 Zycus-task3/
 ├── eval/
 │   ├── evaluate_task3.py
-│   ├── test_cases.json
-│   └── README_TASK3.md
+│   └── test_cases.json
+│  
 ├── results/
 │   ├── task3_predictions.json
 │   ├── task3_results.json
 │   ├── task3_report.md
 │   └── README.md
-└── requirements_task3.txt
+├── requirements.txt
+└── README.md
 ```
 
 ## Setup
