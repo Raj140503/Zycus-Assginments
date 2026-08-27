@@ -1,0 +1,254 @@
+{
+  "task1": [
+    {
+      "id": "T1-01",
+      "task": "task1",
+      "subject": "Users cannot log in to the application",
+      "body": "Multiple users are unable to log in. The login page rejects valid credentials and access to the application is blocked.",
+      "acceptance": {
+        "product_area_contains": [
+          "authentication",
+          "auth"
+        ],
+        "issue_category_contains": [
+          "bug",
+          "incident"
+        ],
+        "urgency_in": [
+          "P1",
+          "P2"
+        ],
+        "required_fields": [
+          "product_area",
+          "issue_category",
+          "urgency",
+          "reasoning",
+          "known_issue",
+          "relevant_kb_document",
+          "recommended_responder_team",
+          "draft_first_response"
+        ]
+      }
+    },
+    {
+      "id": "T1-02",
+      "task": "task1",
+      "subject": "Request: bulk archive entries in DataBridge Pro Data Ingestion",
+      "body": "Currently DataBridge Pro only allows individual archive entries in the Data Ingestion module. As our usage has scaled to 116 users we urgently need bulk operations.",
+      "acceptance": {
+        "product_area_contains": [
+          "data ingestion"
+        ],
+        "issue_category_contains": [
+          "feature request",
+          "enhancement"
+        ],
+        "urgency_in": [
+          "P3",
+          "P4"
+        ],
+        "required_fields": [
+          "product_area",
+          "issue_category",
+          "urgency",
+          "reasoning",
+          "known_issue",
+          "relevant_kb_document",
+          "recommended_responder_team",
+          "draft_first_response"
+        ]
+      }
+    },
+    {
+      "id": "T1-03",
+      "task": "task1",
+      "subject": "CloudSync webhook deliveries failing",
+      "body": "CloudSync webhooks are not reaching our Snowflake endpoint. The endpoint is reachable and the secret is configured correctly. Thousands of deliveries have failed since the last successful delivery.",
+      "acceptance": {
+        "product_area_contains": [
+          "cloudsync",
+          "conflict resolution",
+          "webhook"
+        ],
+        "issue_category_contains": [
+          "bug",
+          "integration",
+          "incident"
+        ],
+        "urgency_in": [
+          "P1",
+          "P2"
+        ],
+        "required_fields": [
+          "product_area",
+          "issue_category",
+          "urgency",
+          "reasoning",
+          "known_issue",
+          "relevant_kb_document",
+          "recommended_responder_team",
+          "draft_first_response"
+        ]
+      }
+    },
+    {
+      "id": "T1-04",
+      "task": "task1",
+      "subject": "Invoice shows an incorrect charge",
+      "body": "Our latest invoice contains a charge that does not match our contracted plan. Please review the invoice and explain or correct the amount.",
+      "acceptance": {
+        "product_area_contains": [
+          "billing",
+          "billing and plans"
+        ],
+        "issue_category_contains": [
+          "billing",
+          "invoice",
+          "bug"
+        ],
+        "urgency_in": [
+          "P2",
+          "P3",
+          "P4"
+        ],
+        "required_fields": [
+          "product_area",
+          "issue_category",
+          "urgency",
+          "reasoning",
+          "known_issue",
+          "relevant_kb_document",
+          "recommended_responder_team",
+          "draft_first_response"
+        ]
+      }
+    },
+    {
+      "id": "T1-05",
+      "task": "task1",
+      "subject": "Login issue",
+      "body": "Login issue. Some users report that they cannot sign in, but the ticket does not specify whether they use SSO or password authentication, how many users are affected, or the exact error message.",
+      "acceptance": {
+        "product_area_contains": [
+          "authentication",
+          "auth",
+          "login"
+        ],
+        "issue_category_contains": [
+          "bug",
+          "incident"
+        ],
+        "urgency_in": [
+          "P2",
+          "P3",
+          "P4"
+        ],
+        "required_fields": [
+          "product_area",
+          "issue_category",
+          "urgency",
+          "reasoning",
+          "known_issue",
+          "relevant_kb_document",
+          "recommended_responder_team",
+          "draft_first_response"
+        ],
+        "adversarial": true
+      }
+    }
+  ],
+  "task2": [
+    {
+      "id": "T2-01",
+      "task": "task2",
+      "account_id": "ACC-3336",
+      "acceptance": {
+        "company_contains": [
+          "Omni Consumer Products"
+        ],
+        "summary_sentences_min": 3,
+        "summary_sentences_max": 5,
+        "required_top_level_fields": [
+          "executive_summary",
+          "open_risks_and_flagged_issues",
+          "recommended_talking_points"
+        ],
+        "risks_require_verbatim_ticket_quotes": true
+      }
+    },
+    {
+      "id": "T2-02",
+      "task": "task2",
+      "account_id": "ACC-3033",
+      "acceptance": {
+        "company_contains": [
+          "Polaris Group"
+        ],
+        "summary_sentences_min": 3,
+        "summary_sentences_max": 5,
+        "required_top_level_fields": [
+          "executive_summary",
+          "open_risks_and_flagged_issues",
+          "recommended_talking_points"
+        ],
+        "risks_require_verbatim_ticket_quotes": true
+      }
+    },
+    {
+      "id": "T2-03",
+      "task": "task2",
+      "account_id": "ACC-7893",
+      "acceptance": {
+        "company_contains": [
+          "Solaris Data"
+        ],
+        "summary_sentences_min": 3,
+        "summary_sentences_max": 5,
+        "required_top_level_fields": [
+          "executive_summary",
+          "open_risks_and_flagged_issues",
+          "recommended_talking_points"
+        ],
+        "risks_require_verbatim_ticket_quotes": true
+      }
+    },
+    {
+      "id": "T2-04",
+      "task": "task2",
+      "account_id": "ACC-1881",
+      "acceptance": {
+        "company_contains": [
+          "Massive Dynamic"
+        ],
+        "summary_sentences_min": 3,
+        "summary_sentences_max": 5,
+        "required_top_level_fields": [
+          "executive_summary",
+          "open_risks_and_flagged_issues",
+          "recommended_talking_points"
+        ],
+        "risks_require_verbatim_ticket_quotes": true
+      }
+    },
+    {
+      "id": "T2-05",
+      "task": "task2",
+      "account_id": "ACC-3336",
+      "acceptance": {
+        "company_contains": [
+          "Omni Consumer Products"
+        ],
+        "summary_sentences_min": 3,
+        "summary_sentences_max": 5,
+        "required_top_level_fields": [
+          "executive_summary",
+          "open_risks_and_flagged_issues",
+          "recommended_talking_points"
+        ],
+        "risks_require_verbatim_ticket_quotes": true,
+        "adversarial": true,
+        "adversarial_note": "Account metadata contains an escalation note about 3 consecutive P1 tickets while p1_tickets_last_30d is 0; risk flags must still be grounded in direct ticket quotes."
+      }
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+{
+  "generated_at": "2026-08-27T13:16:32",
+  "results": [
+    {
+      "id": "T2-01",
+      "task": "task2",
+      "account_id": "ACC-3336",
+      "company": "Omni Consumer Products",
+      "adversarial": false,
+      "passed": true,
+      "quality_score": 1.0,
+      "checks": [
+        {
+          "check": "required field: executive_summary",
+          "passed": true
+        },
+        {
+          "check": "required field: open_risks_and_flagged_issues",
+          "passed": true
+        },
+        {
+          "check": "required field: recommended_talking_points",
+          "passed": true
+        },
+        {
+          "check": "executive summary sentence count",
+          "passed": true
+        },
+        {
+          "check": "account company represented",
+          "passed": true
+        },
+        {
+          "check": "every risk has a verbatim ticket quote",
+          "passed": true
+        },
+        {
+          "check": "recommended talking points present",
+          "passed": true
+        }
+      ],
+      "output": {
+        "executive_summary": "Omni Consumer Products is currently classified as At Risk with an inactive usage trend, despite generating $500,000 in ARR across 1,693 active seats. Escalation notes highlight significant churn risk due to recent P1 tickets and the primary contact evaluating competing vendors ahead of the August 2026 renewal. Additionally, the account has 7 open tickets and recently experienced severe performance degradation impacting 198 users in EU-West. TAM Rohan Mehta must proactively engage VP of Technology Quinn Wilson to address product stability, resolve open issues, and reinforce platform value.",
+        "open_risks_and_flagged_issues": [
+          {
+            "issue": "Severe DataBridge Pro performance degradation and API timeouts impacting 198 users in EU-West.",
+            "reason": "Significant performance degradation and API timeouts negatively affect user experience and operational continuity, contributing to customer dissatisfaction and competing vendor risk.",
+            "ticket_id": "TKT-10293",
+            "direct_quote": "We've noticed significant performance degradation in DataBridge Pro over the past 12 days. Page loads are taking 119+ seconds and API operations are timing out."
+          }
+        ],
+        "recommended_talking_points": [
+          "Address recent performance degradation and API timeouts reported in ticket TKT-10293 to ensure stability in the EU-West region.",
+          "Discuss the 7 open tickets and establish a dedicated action plan to resolve outstanding technical concerns.",
+          "Engage VP of Technology Quinn Wilson regarding the competing vendor evaluation and highlight key differentiators of WorkflowEngine and AnalyticsHub.",
+          "Review current license utilization (1,693 active out of 1,845 licensed seats) and outline strategies to drive user engagement ahead of the August 2026 renewal."
+        ]
+      }
+    },
+    {
+      "id": "T2-02",
+      "task": "task2",
+      "account_id": "ACC-3033",
+      "company": "Polaris Group",
+      "adversarial": false,
+      "passed": true,
+      "quality_score": 1.0,
+      "checks": [
+        {
+          "check": "required field: executive_summary",
+          "passed": true
+        },
+        {
+          "check": "required field: open_risks_and_flagged_issues",
+          "passed": true
+        },
+        {
+          "check": "required field: recommended_talking_points",
+          "passed": true
+        },
+        {
+          "check": "executive summary sentence count",
+          "passed": true
+        },
+        {
+          "check": "account company represented",
+          "passed": true
+        },
+        {
+          "check": "every risk has a verbatim ticket quote",
+          "passed": true
+        },
+        {
+          "check": "recommended talking points present",
+          "passed": true
+        }
+      ],
+      "output": {
+        "executive_summary": "Polaris Group is an Energy sector customer in the APAC region using DataBridge Pro on a Starter plan generating $120,000 ARR. The account currently holds a Healthy status with an increasing usage trend, utilizing 925 out of 1049 licensed seats and running active Google Workspace and Jira integrations. Although there were zero P1 tickets in the last 30 days, the account has 11 open tickets and primary contact Taylor Smith last logged in 57 days ago. TAM Yuki Tanaka should focus on re-engaging primary leadership and resolving open support items ahead of the June 30, 2026 renewal date.",
+        "open_risks_and_flagged_issues": [],
+        "recommended_talking_points": [
+          "Review seat utilization with 925 active seats out of 1049 licensed.",
+          "Address the resolution status of the 11 currently open support tickets.",
+          "Re-engage primary contact Taylor Smith following 57 days since their last platform login.",
+          "Discuss integration workflows for Google Workspace and Jira to prepare for the June 2026 renewal."
+        ]
+      }
+    },
+    {
+      "id": "T2-03",
+      "task": "task2",
+      "account_id": "ACC-7893",
+      "company": "Solaris Data",
+      "adversarial": false,
+      "passed": true,
+      "quality_score": 1.0,
+      "checks": [
+        {
+          "check": "required field: executive_summary",
+          "passed": true
+        },
+        {
+          "check": "required field: open_risks_and_flagged_issues",
+          "passed": true
+        },
+        {
+          "check": "required field: recommended_talking_points",
+          "passed": true
+        },
+        {
+          "check": "executive summary sentence count",
+          "passed": true
+        },
+        {
+          "check": "account company represented",
+          "passed": true
+        },
+        {
+          "check": "every risk has a verbatim ticket quote",
+          "passed": true
+        },
+        {
+          "check": "recommended talking points present",
+          "passed": true
+        }
+      ],
+      "output": {
+        "executive_summary": "Solaris Data is an Enterprise customer in the Retail industry managed by TAM Yuki Tanaka, generating $24,000 in ARR with an NPS score of 10. The account currently utilizes 757 of its 1,314 licensed seats across AnalyticsHub, SecureVault, DataBridge Pro, and CloudSync. Although the overall usage trend is designated as increasing, the primary contact last logged in 24 days ago. With the renewal date set for December 25, 2026, driving seat adoption and maintaining consistent portal engagement remain key priorities.",
+        "open_risks_and_flagged_issues": [],
+        "recommended_talking_points": [
+          "Discuss strategies to improve seat utilization beyond the current 757 active seats out of 1,314 licensed seats.",
+          "Inquire about recent user engagement and address the 24-day gap since the last login.",
+          "Review the status of the 5 open tickets logged under the account metadata.",
+          "Explore expanding integrations beyond the currently active HubSpot integration."
+        ]
+      }
+    },
+    {
+      "id": "T2-04",
+      "task": "task2",
+      "account_id": "ACC-1881",
+      "company": "Massive Dynamic",
+      "adversarial": false,
+      "passed": true,
+      "quality_score": 1.0,
+      "checks": [
+        {
+          "check": "required field: executive_summary",
+          "passed": true
+        },
+        {
+          "check": "required field: open_risks_and_flagged_issues",
+          "passed": true
+        },
+        {
+          "check": "required field: recommended_talking_points",
+          "passed": true
+        },
+        {
+          "check": "executive summary sentence count",
+          "passed": true
+        },
+        {
+          "check": "account company represented",
+          "passed": true
+        },
+        {
+          "check": "every risk has a verbatim ticket quote",
+          "passed": true
+        },
+        {
+          "check": "recommended talking points present",
+          "passed": true
+        }
+      ],
+      "output": {
+        "executive_summary": "Massive Dynamic is currently categorized as At Risk with an inactive usage trend and a 16-day period since the last user login. The account currently maintains 11 open tickets, including 2 P1 tickets in the past 30 days, with escalation notes highlighting negative sentiment. While 321 of 350 licensed seats remain active, the recent drop in platform activity poses potential renewal risks. TAM Fatima Al-Rashid should proactively engage primary contact Alex Morgan to resolve outstanding technical friction and restore platform engagement.",
+        "open_risks_and_flagged_issues": [],
+        "recommended_talking_points": [
+          "Address the root causes behind the 11 open tickets and 2 recent P1 tickets to alleviate negative customer sentiment.",
+          "Investigate the recent account inactivity and 16-day login gap to ensure user re-engagement across deployed products.",
+          "Review active seat utilization (321 of 350 seats) and explore ways to maximize value across DataBridge Pro, AnalyticsHub, SecureVault, and WorkflowEngine.",
+          "Assess the health and configuration of active integrations with AWS S3 and Zendesk to ensure operational stability."
+        ]
+      }
+    },
+    {
+      "id": "T2-05",
+      "task": "task2",
+      "account_id": "ACC-3336",
+      "company": "Omni Consumer Products",
+      "adversarial": true,
+      "passed": true,
+      "quality_score": 1.0,
+      "checks": [
+        {
+          "check": "required field: executive_summary",
+          "passed": true
+        },
+        {
+          "check": "required field: open_risks_and_flagged_issues",
+          "passed": true
+        },
+        {
+          "check": "required field: recommended_talking_points",
+          "passed": true
+        },
+        {
+          "check": "executive summary sentence count",
+          "passed": true
+        },
+        {
+          "check": "account company represented",
+          "passed": true
+        },
+        {
+          "check": "every risk has a verbatim ticket quote",
+          "passed": true
+        },
+        {
+          "check": "recommended talking points present",
+          "passed": true
+        }
+      ],
+      "output": {
+        "executive_summary": "Omni Consumer Products is currently marked as At Risk with an inactive usage trend across its $500,000 ARR Business tier subscription. The primary contact, VP of Technology Quinn Wilson, is considering a competing vendor evaluation, posing significant renewal risk ahead of August 2026. Furthermore, the account has 7 open tickets and historical performance degradation issues impacting nearly 200 users. Immediate TAM intervention is required to stabilize platform performance, address customer dissatisfaction, and secure the account.",
+        "open_risks_and_flagged_issues": [
+          {
+            "issue": "Severe performance degradation and API timeouts in DataBridge Pro.",
+            "reason": "Extreme latency and timeouts directly impair operations for 198 users in EU-West, fueling churn risk and driving vendor re-evaluation.",
+            "ticket_id": "TKT-10293",
+            "direct_quote": "Page loads are taking 119+ seconds and API operations are timing out."
+          }
+        ],
+        "recommended_talking_points": [
+          "Review performance remediation and infrastructure stability efforts for DataBridge Pro in the EU-West region following recent latency issues (TKT-10293).",
+          "Engage VP of Technology Quinn Wilson to address key feature requirements and evaluate platform value to mitigate competitive evaluation risk ahead of the August 2026 renewal.",
+          "Discuss plan to resolve the 7 currently open tickets and prevent escalation of future issues.",
+          "Analyze seat adoption (1,693 active out of 1,845 licensed seats) and outline strategies to boost platform usage across WorkflowEngine and AnalyticsHub."
+        ]
+      }
+    },
+    {
+      "id": "T1-01",
+      "task": "task1",
+      "adversarial": false,
+      "passed": true,
+      "quality_score": 1.0,
+      "checks": [],
+      "output": {
+        "product_area": "Authentication",
+        "issue_category": "Bug",
+        "urgency": "P1"
+      }
+    },
+    {
+      "id": "T1-02",
+      "task": "task1",
+      "adversarial": false,
+      "passed": true,
+      "quality_score": 1.0,
+      "checks": [],
+      "output": {
+        "product_area": "Data Ingestion",
+        "issue_category": "Feature Request",
+        "urgency": "P3"
+      }
+    },
+    {
+      "id": "T1-03",
+      "task": "task1",
+      "adversarial": false,
+      "passed": false,
+      "quality_score": 0.909,
+      "checks": [],
+      "output": {
+        "product_area": "Integrations",
+        "issue_category": "Integration",
+        "urgency": "P2"
+      }
+    },
+    {
+      "id": "T1-04",
+      "task": "task1",
+      "adversarial": false,
+      "passed": false,
+      "quality_score": 0.909,
+      "checks": [],
+      "output": {
+        "product_area": "Dashboard",
+        "issue_category": "Billing",
+        "urgency": "P3"
+      }
+    },
+    {
+      "id": "T1-05",
+      "task": "task1",
+      "adversarial": true,
+      "passed": true,
+      "quality_score": 1.0,
+      "checks": [],
+      "output": {
+        "product_area": "Authentication",
+        "issue_category": "Bug",
+        "urgency": "P3"
+      }
+    }
+  ]
+}
