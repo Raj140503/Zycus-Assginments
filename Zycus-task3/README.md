@@ -21,15 +21,16 @@ defined acceptance criteria.
 ```text
 Zycus-task3/
 ├── eval/
-│   ├── evaluate_task3.py
+│   ├── evaluate.py
 │   ├── test_cases.json
 │   └── README_TASK3.md
 ├── results/
-│   ├── task3_predictions.json
-│   ├── task3_results.json
-│   ├── task3_report.md
-│   └── README.md
-└── requirements_task3.txt
+│   ├── predictions.json
+│   ├── results.json
+│   └── report.md
+│   
+├── requirements_task3.txt
+└── README.md
 ```
 
 ## Setup
